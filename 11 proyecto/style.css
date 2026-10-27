@@ -1,0 +1,33 @@
+/* el css no sirve todo opera con el :host en .js*/
+
+.product_card.product_card {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    transition: all 0.3s ease;
+}
+
+.product_image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product_info {
+    padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+    .product_card {
+        flex-direction: row;
+        max-width: 600px;
+    }
+
+    .product_image, .product_info {
+        flex: 1;
+    }
+}
