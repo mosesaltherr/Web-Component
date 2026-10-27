@@ -93,7 +93,7 @@ customElements.define('merchandise-card', class MerchandiseCard extends HTMLElem
             --primary-color: #504682;
             --secundary-color: #e4e4e4;
             --brand-font: 'Montserrat', sans-serif;
-            --brand-size: 20px;
+            --brand-size: 22px;
             --brand-color: var(--primary-color);
             --name-font: 'Montserrat', sans-serif;
             --name-size: 18px;
