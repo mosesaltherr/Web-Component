@@ -1,0 +1,5 @@
+# Ignora todo lo que esté dentro de la carpeta web
+web components/*
+
+# Pero haz una excepción y permite la carpeta número 11 (reemplaza '11 proyecto' por el nombre real de tu carpeta)
+!web/11 proyecto/
