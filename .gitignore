@@ -1,13 +1,13 @@
 # Ignora todas las carpetas numeradas del 1 al 10 usando comodines o escribiéndolas directamente:
-web components/1 Custom Elements/
-web components/2 Template/
-web components/3 Shadow DOM/
-web components/4 Content Slot/
-web components/5 Atributos/
-web components/6 attributeChangedCallback/
-web components/7 disconnectecCallback/
-web components/8 host/
-web components/9 slotted/
-web components/10 Custom Properties/
+1 Custom Elements/
+2 Template/
+3 Shadow DOM/
+4 Content Slot/
+5 Atributos/
+6 attributeChangedCallback/
+7 disconnectecCallback/
+8 host/
+9 slotted/
+10 Custom Properties/
 
 # O de forma más rápida si todas comparten el mismo nivel, puedes ignorar todo lo que empiece por número excepto la 11:
