@@ -1,5 +1,13 @@
-# Ignora todo lo que esté dentro de la carpeta web
-web components/*
+# Ignora todas las carpetas numeradas del 1 al 10 usando comodines o escribiéndolas directamente:
+web components/1 Custom Elements/
+web components/2 Template/
+web components/3 Shadow DOM/
+web components/4 Content Slot/
+web components/5 Atributos/
+web components/6 attributeChangedCallback/
+web components/7 disconnectecCallback/
+web components/8 host/
+web components/9 slotted/
+web components/10 Custom Properties/
 
-# Pero haz una excepción y permite la carpeta número 11 (reemplaza '11 proyecto' por el nombre real de tu carpeta)
-!web/11 proyecto/
+# O de forma más rápida si todas comparten el mismo nivel, puedes ignorar todo lo que empiece por número excepto la 11:
